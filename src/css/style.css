@@ -1,0 +1,169 @@
+/* 
+color background
+r : 30
+g : 65
+b : 74
+
+color primary
+r : 214
+g : 102
+b : 84
+
+color text
+r : 255
+g : 255
+b : 255
+
+font
+Mochiy Pop One : title
+karla : text menu
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Mochiy+Pop+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-primary {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.text-secondary {
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    /* min-height: 100vh; */
+    background-color: whitesmoke;
+}
+
+.container{
+    background: rgb(30, 65, 74);
+    width: 70%;
+    margin: 5rem auto;
+    overflow: hidden;
+    border-radius: 5rem;
+    box-shadow: 1rem 1rem 2rem 0.1rem #888888;
+}
+
+/* css for header and bottom */
+.top,
+.bottom {
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 2.5rem;
+    background-image: url(/src/img/4770.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+}
+
+/* end */
+
+/* css for main content */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* css for section img */
+.img {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.food_a,
+.food_b {
+    height: 90vh;
+    width: 90vh;
+    border-radius: 100%;
+    margin-right: 2rem;
+    margin-left: -10rem;
+}
+
+/* end */
+
+/* css for section menu header */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+.menu-header {
+    text-align: center;
+    text-shadow: 2px 2px 2px #2c2c2c3d;
+}
+
+.menu-header>h1 {
+    font-size: 10vmin;
+    text-transform: capitalize;
+}
+
+.menu-header>h3 {
+    font-size: 5vmin;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/* end */
+
+/* menu info */
+.menu-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-shadow: 2px 2px 2px #2c2c2c3d;
+}
+
+.menu-title{
+    width: 100%;
+    padding: 0.3rem ;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    background: rgb( 214, 102 , 84);
+}
+.menu-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    word-spacing: 1rem;
+}
+
+ul>li {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+
+.menu-name {
+    font-weight: 300;
+    font-stretch: ultra-expanded;
+}
+/* end */
+
+/* footer */
+.credit{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px #2c2c2c3d;
+    text-transform: capitalize;
+    padding-top: 0.4rem;
+}
+/* end */

@@ -1,0 +1,16 @@
+{
+  "name": "menu-resto",
+  "version": "1.0.0",
+  "description": "mini projek untuk meningkatkan dasar html dan css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "resep"
+  ],
+  "author": "IBNU HAJAR",
+  "license": "ISC"
+}
